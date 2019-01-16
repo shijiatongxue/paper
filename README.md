@@ -1,4 +1,4 @@
-|Key|Author|Year|Conference|Paper|
+|Model|Author|Year|Conference|Paper|
 |:-:|:----:|:--:|:--------:|:---:|
 |NLP|Yoshua Bengio|2013|IEEE TPAMI|[Representation Learning: A Review and New Perspectives](https://arxiv.org/pdf/1206.5538.pdf)|
 |Word2Vec|Tomas Mikolov|2013|Google|[Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/abs/1301.3781)|
