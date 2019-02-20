@@ -1,4 +1,19 @@
-# Models
+# Graph Embedding/Network Embedding
+<table>
+    <tr>
+        <th colspan="1"></th>
+        <th colspan="1">Model</th>
+    </tr>
+    <tr>
+        <th rawspan="4">Classical Algorithm</th>
+        <td>MDS</td>
+        <td>IsoMap</td>
+        <td>Laplacian eigenmap</td>
+        <td>LLE</td>
+    </tr>
+</table>
+
+# Model detail
 |Model|Author|Year|Conference|Paper|
 |:-:|:----:|:--:|:--------:|:---:|
 |meta path|Yizhou Sun|2011|VLDB|[Meta Path-Based Top-K Similarity Search in Heterogeneous Information Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.9062&rep=rep1&type=pdf)|
