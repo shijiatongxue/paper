@@ -43,4 +43,20 @@ LINE|2015
         <td>BlogCatalog</td>
         <td>DBLP</td>
     </tr>
+    <tr>
+        <td>Number of Nodes</td>
+        <td>Wikipedia</td>
+        <td>Flickr</td>
+        <td>Youtube</td>
+        <td>88784</td>
+        <td>DBLP</td>
+    </tr>
+    <tr>
+        <td>Number of Edges</td>
+        <td>Wikipedia</td>
+        <td>Flickr</td>
+        <td>Youtube</td>
+        <td>4186390</td>
+        <td>DBLP</td>
+    </tr>
 </table>
