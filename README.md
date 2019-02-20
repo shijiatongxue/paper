@@ -1,13 +1,11 @@
 # Graph Embedding/Network Embedding Models
-<table>
-    <tr>
-        <th colspan="4">Classical Algorithm</th>
-    </tr>
-    <tr><td>MDS</td></tr>
-    <tr><td>IsoMap</td></tr>
-    <tr><td>Laplacian eigenmap</td></tr>
-    <tr><td>LLE</td></tr>
-</table>
+## Classical Models
+|Model|Year|
+|:-:|:-:|
+MDS|
+IsoMap|
+Laplacian eigenmap|
+LLE|
 
 # Model detail
 |Model|Author|Year|Conference|Paper|
