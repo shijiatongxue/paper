@@ -2,16 +2,16 @@
 ## Classical Models
 Model|Year
 :-:|:-:
-MDS|
-IsoMap|
-Laplacian eigenmap|
-LLE|
+MDS|2000
+IsoMap|2000
+Laplacian eigenmap|2001
+LLE|2000
 
 缺点：传统方法算法复杂度为O(n2)，无法进行大规模图的学习。
 ## Matrix Factorization
 Model|Year
 :-:|:-:
-Graph factorization|
+Graph factorization|2013
 ## Neural Network
 Model|Year
 :-:|:-:
