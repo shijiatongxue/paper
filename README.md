@@ -32,7 +32,7 @@ LINE|2015
     <tr>
         <th colspan="1"></th>
         <th colspan="1">Language Network</th>
-        <th colspan="2">Social Network</th>
+        <th colspan="3">Social Network</th>
         <th colspan="1">Citation Nerwork</th>
     </tr>
     <tr>
@@ -40,6 +40,7 @@ LINE|2015
         <td>Wikipedia</td>
         <td>Flickr</td>
         <td>Youtube</td>
+        <td>BlogCatalog</td>
         <td>DBLP</td>
     </tr>
 </table>
