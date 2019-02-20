@@ -11,21 +11,16 @@
 # Networks
 <table>
     <tr>
-        <th rowspan="2">真实情况</th>
-        <th colspan="2">预测结果</th>
+        <th colspan="1"></th>
+        <th colspan="1">Language Network</th>
+        <th colspan="2">Social Network</th>
+        <th colspan="1">Citation Nerwork</th>
     </tr>
     <tr>
-        <td>正例</td>
-        <td>反例</td>
-    </tr>
-    <tr>
-        <td>正例</td>
-        <td>TP(真正例)</td>
-        <td>FN(假反例)</td>
-    </tr>
-    <tr>
-        <td>反例</td>
-        <td>FP(假正例)</td>
-        <td>TN(真反例)</td>
+        <td>Name</td>
+        <td>Wikipedia</td>
+        <td>Flickr</td>
+        <td>Youtube</td>
+        <td>DBLP</td>
     </tr>
 </table>
