@@ -1,16 +1,14 @@
-# Graph Embedding/Network Embedding
+# Graph Embedding/Network Embedding Models
 <table>
     <tr>
-        <th colspan="1"></th>
-        <th colspan="1">Model</th>
+        <th rawspan="4">Classical Algorithm</th>
     </tr>
     <tr>
-        <th rawspan="4">Classical Algorithm</th>
         <td>MDS</td>
-        <td>IsoMap</td>
-        <td>Laplacian eigenmap</td>
-        <td>LLE</td>
     </tr>
+    <tr><td>IsoMap</td></tr>
+    <tr><td>Laplacian eigenmap</td></tr>
+    <tr><td>LLE</td></tr>
 </table>
 
 # Model detail
