@@ -7,7 +7,7 @@ IsoMap|
 Laplacian eigenmap|
 LLE|
 
-缺点：传统方法算法复杂度为$o(n^3)$，无法进行大规模图的学习。
+缺点：传统方法算法复杂度为$$o(n^3)$$，无法进行大规模图的学习。
 # Model detail
 |Model|Author|Year|Conference|Paper|
 |:-:|:----:|:--:|:--------:|:---:|
