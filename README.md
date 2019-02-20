@@ -1,11 +1,12 @@
 # Graph Embedding/Network Embedding Models
 ## Classical Models
-|Model|Year|
-|:-:|:-:|
+Model|Year
+:-:|:-:
 MDS|
 IsoMap|
 Laplacian eigenmap|
 LLE|
+
 缺点：传统方法算法复杂度为$o(n^3)$，无法进行大规模图的学习。
 # Model detail
 |Model|Author|Year|Conference|Paper|
