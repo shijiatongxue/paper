@@ -16,6 +16,7 @@
         <th colspan="2">Social Network</th>
         <th colspan="1">Citation Nerwork</th>
     </tr>
+    <center>
     <tr>
         <td>Name</td>
         <td>Wikipedia</td>
@@ -23,4 +24,5 @@
         <td>Youtube</td>
         <td>DBLP</td>
     </tr>
+    </center>
 </table>
