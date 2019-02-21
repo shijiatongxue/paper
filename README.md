@@ -1,3 +1,23 @@
+# Graph Embedding/Network Embedding Models
+## Classical Models
+Model|Year
+:-:|:-:
+MDS|2000
+IsoMap|2000
+Laplacian eigenmap|2001
+LLE|2000
+
+缺点：传统方法算法复杂度为O(n2)，无法进行大规模图的学习。
+## Matrix Factorization
+Model|Year
+:-:|:-:
+Graph factorization|2013
+## Neural Network
+Model|Year
+:-:|:-:
+DeepWalk|2014
+LINE|2015
+# Model detail
 |Model|Author|Year|Conference|Paper|
 |:-:|:----:|:--:|:--------:|:---:|
 |meta path|Yizhou Sun|2011|VLDB|[Meta Path-Based Top-K Similarity Search in Heterogeneous Information Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.9062&rep=rep1&type=pdf)|
@@ -7,3 +27,20 @@
 |DeepWalk|Bryan Perozzi|2014|KDD|[DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652.pdf)|
 |LINE|Jian Tang|2015|WWW|[LINE: Large-scale Information Network Embedding](https://arxiv.org/pdf/1503.03578.pdf)|
 |node2vec|Aditya Grove|2016|KDD|[node2vec: Scalable Feature Learning for Networks](http://shichuan.org/hin/topic/Embedding/2016.%20node2vec%20Scalable%20Feature%20Learning%20for%20Networks.pdf)|
+# Networks
+<table>
+    <tr>
+        <th colspan="1"></th>
+        <th colspan="1">Language Network</th>
+        <th colspan="3">Social Network</th>
+        <th colspan="1">Citation Nerwork</th>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>Wikipedia</td>
+        <td>Flickr</td>
+        <td>Youtube</td>
+        <td>BlogCatalog</td>
+        <td>DBLP</td>
+    </tr>
+</table>
