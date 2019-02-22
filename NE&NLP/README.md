@@ -1,3 +1,12 @@
+|考虑网络结构|考虑结构和其他信息|DL|GAN|
+|:-:|:-:|:-:|:-:|
+|DeepWalk|CENE|GCN|GraphGAN|
+|LINE|CANE|SDNE|ANE|
+|GraRep|Trans-net|||
+|node2vec||||
+|struct2vec||||
+|GraphSAGE||||
+---
 # 1 用什么模型？
 模型的选择有很多种，从古典方法，到只考虑结构信息，再到考虑节点和边的信息，再到深度模型，令人眼花缭乱。
 选择模型一定要和你的实际问题相关：
