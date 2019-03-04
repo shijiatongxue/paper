@@ -1,7 +1,7 @@
 |考虑网络结构|考虑结构和其他信息|DL|Graph Conv|GAN|
 |:-:|:-:|:-:|:-:|:-:|
-|DeepWalk|CENE||GCN|GraphGAN|
-|LINE|CANE|SDNE|ANE|GraphSAGE|
+|DeepWalk|CENE|ANE|GCN|GraphGAN|
+|LINE|CANE|SDNE|GraphSAGE||
 |GraRep|Trans-net|[ASNE](https://arxiv.org/pdf/1705.04969.pdf)|||
 |node2vec|[TANE](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.703.7147&rep=rep1&type=pdf)|[DANE](https://www.ijcai.org/proceedings/2018/0467.pdf)|||
 |struct2vec|[AANE](http://www.public.asu.edu/~jundongl/paper/SDM17_AANE.pdf)||||
