@@ -1,22 +1,14 @@
 # Graph Embedding/Network Embedding Models
 ## Classical Models
-Model|Year
-:-:|:-:
-MDS|2000
-IsoMap|2000
-Laplacian eigenmap|2001
-LLE|2000
-
-缺点：传统方法算法复杂度为O(n2)，无法进行大规模图的学习。
-## Matrix Factorization
-Model|Year
-:-:|:-:
-Graph factorization|2013
-## Neural Network
-Model|Year
-:-:|:-:
-DeepWalk|2014
-LINE|2015
+Model|category|Year
+:-:|:-:|:-:
+MDS|Classical Models|2000
+IsoMap|Classical Models|2000
+Laplacian eigenmap|Classical Models|2001
+LLE|Classical Models|2000
+Graph factorization|Matrix Factorization|2013
+DeepWalk|Neural Network|2014
+LINE|Neural Network|2015
 # Model detail
 |Model|Author|Year|Conference|Paper|
 |:-:|:----:|:--:|:--------:|:---:|
