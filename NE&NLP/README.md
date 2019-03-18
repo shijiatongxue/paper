@@ -4,14 +4,14 @@
 |LINE|CANE|SDNE|[GraphSAGE](https://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf)||
 |GraRep|Trans-net|[ASNE](https://arxiv.org/pdf/1705.04969.pdf)|||
 |node2vec|[TANE](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.703.7147&rep=rep1&type=pdf)|[DANE](https://www.ijcai.org/proceedings/2018/0467.pdf)|||
-|struct2vec|[AANE](http://www.public.asu.edu/~jundongl/paper/SDM17_AANE.pdf)||||
+|[struc2vec](https://arxiv.org/pdf/1704.03165.pdf)|[AANE](http://www.public.asu.edu/~jundongl/paper/SDM17_AANE.pdf)||||
 |[HOPE](https://www.cs.sfu.ca/~jpei/publications/Graph%20Embedding%20KDD16.pdf)|[ABNE](https://arxiv.org/pdf/1811.11728.pdf)|||
 ---
 # 1 用什么模型？
 模型的选择有很多种，从古典方法，到只考虑结构信息，再到考虑节点和边的信息，再到深度模型，令人眼花缭乱。
 选择模型一定要和你的实际问题相关：
 - 实际问题更加关注内容相似性（局部邻域相似性）那么可以选择：node2vec，LINE，GraRap等；
-- 实际问题更加关注结构相似性：struct2vec，蚂蚁金服使用struct2vec相比node2vec有质的提升；
+- 实际问题更加关注结构相似性：struc2vec，蚂蚁金服使用struc2vec相比node2vec有质的提升；
 - 考虑节点和边的额外信息：CANE，CENE，Trans-net等；
 - 处理大规模易变图：可以采用GraphSANE，或者先采用其他GE方法，再使用GraphSANE归纳学习；
 - 微调模型：GraphGAN；
