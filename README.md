@@ -1,5 +1,4 @@
 # Graph Embedding/Network Embedding Models
-## Classical Models
 Model|category|Year
 :-:|:-:|:-:
 MDS|Classical Models|2000
