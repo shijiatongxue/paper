@@ -1,13 +1,13 @@
 # Graph Embedding/Network Embedding Models
 Model|category|Year
 :-:|:-:|:-:
-MDS|Classical Models|2000
-IsoMap|Classical Models|2000
-Laplacian eigenmap|Classical Models|2001
-LLE|Classical Models|2000
-Graph factorization|Matrix Factorization|2013
-DeepWalk|Neural Network|2014
-LINE|Neural Network|2015
+Classical Models|MDS|2000
+Classical Models|IsoMap|2000
+Classical Models|Laplacian eigenmap|2001
+Classical Models|LLE|2000
+Matrix Factorization|Graph factorization|2013
+Neural Network|DeepWalk|2014
+Neural Network|LINE|2015
 # Model detail
 |Model|Author|Year|Conference|Paper|
 |:-:|:----:|:--:|:--------:|:---:|
