@@ -19,10 +19,21 @@
 
 总之，用什么模型取决于你的问题！
 (from 吴天龙）
-# 2 模型学习
-## KDD17-metapath2vec
+# 2 论文学习
+- Sequence to Sequence Learning with Neural Networks 2019.4
+
+
+这篇文章介绍了LSTM在翻译中的应用，本文运用了4层的LSTM进行编码，4层LSTM进行解码，可以输出与输入不同长度的序列。原有的模型如DNN存在固定输入与输出大小的问题，以及之前的翻译模型需要输入输出进行对齐。这篇文章很好地解决了这些问题。
+
+本文使用的评价方方法是BLEU Score，通过词的共现次数进行打分。
+
+对于翻译模型，一般有RNNLM和NNLM。（Google, NIPS2014）
+- KDD17-metapath2vec
+  
 对DeepWalk和Skip-gram模型进行修改，以适应异质网络。随机游走的路径基于Meta-path，下一个节点必须符合Meta-path的规则，比如Author-Paper-Author元路径，当前节点为Paper，则随机游走的节点必须在Author节点进行选择。Skip-gram的输出对节点进行分类，而不是对所有节点的概率进行输出。
-## VLDB11-PathSim: Meta Path-Based Top-K Similarity Search in Heterogeneous Information Networks
+- VLDB11-PathSim: Meta Path-Based Top-K Similarity Search in Heterogeneous Information Networks
+
 提出一种元路径的方法度量查询之间的相似度，元路径方法可以保存路径之间的结构信息。如APA可以保存引用关系或者协作关系，APCPA可以保存作者与作者在会议级别的关系。
-## SIAM13-Multi-view clustering via joint nonnegative matrix factorization
+- SIAM13-Multi-view clustering via joint nonnegative matrix factorization
+
 多视角聚类算法。
